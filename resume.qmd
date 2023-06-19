@@ -1,0 +1,57 @@
+---
+title: "Resume"
+subtitle: "~ Some information about my career and my professional experiences ~"
+css: css_box.css
+---
+
+```{r, echo=FALSE}
+briefcase <- fontawesome::fa("briefcase", fill = "#64605F", a11y = "sem")
+chalkboard_user <- fontawesome::fa("chalkboard-user", fill = "#64605F", a11y = "sem")
+graduation_cap <- fontawesome::fa("graduation-cap", fill = "#64605F", a11y = "sem")
+tools <- fontawesome::fa("tools", fill = "#64605F", a11y = "sem")
+```
+
+## `r briefcase` Jobs
+
+-   **Data Scientist, 2020 - present** ![](images/logo/jobs/logo_AP-HP.PNG){.space_logo width="80" height="18"}\
+    \vspace{1.5cm} *AP-HP, Hôpital Européen Georges Pompidou*
+
+-   **Data Scientist Internship, 2020** ![](images/logo/jobs/lincoln-logo-lightup-blue.png){.space_logo width="80" height="24"}\
+    \vspace{1.5cm} *Lincoln*
+
+## `r chalkboard_user` Teaching
+
+-   **L2 SIAS, UE Maths - Sciences des Données, 2022 - 2023**\
+    \vspace{1.5cm} *Faculté de Pharmacie - Université de Paris Cité*
+
+-   **PASS (Parcours d'Accès Spécifique Santé), UE Mathématiques - Biostatistiques, 2020 - 2021**\
+    \vspace{1.5cm} *Faculté de Santé - Université de Paris Cité*
+
+## `r graduation_cap` Education
+
+-   **Master's degree in applied mathematics, statistics, 2018 - 2020**\
+    \vspace{1.5cm} *Faculté des Sciences Economiques - Université de Rennes 1*
+
+-   **Bachelor's degree in mathematics and computer science applied to human and social sciences, 2015 - 2018**\
+    \vspace{1.5cm} *Faculté des Sciences Economiques - Université de Rennes 1*
+
+------------------------------------------------------------------------
+
+## `r tools` Tools I like to use
+
+::: columns
+::: {.column .infobox width="45%"}
+**Programming language**
+
+![](images/logo/tools/r.png){.space_logo width="50" height="40"} ![](images/logo/tools/python.png){.space_logo width="150" height="40"} ![](images/logo/tools/sql.png){.space_logo width="80" height="40"} ![](images/logo/tools/html%20css.png){.space_logo width="80" height="40"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column .infobox width="45%"}
+**Others**
+
+![](images/logo/tools/shiny.png){.space_logo width="80" height="82"} ![](images/logo/tools/git.png){.space_logo width="80" height="35"} ![](images/logo/tools/docker.png){.space_logo width="80" height="65"} ![](images/logo/tools/singularity.png){.space_logo width="80" height="80"} ![](images/logo/tools/github_actions.png){.space_logo width="40" height="40"}
+:::
+:::

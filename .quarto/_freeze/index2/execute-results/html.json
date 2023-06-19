@@ -1,0 +1,14 @@
+{
+  "hash": "a22401ea81b1f5d54be34c83a5acabb4",
+  "result": {
+    "markdown": "---\ntitle: \"Hey ! I'm Alexis,\"\nimage: images/profile.jpg\nabout:\n  template: jolla\n  links:\n    - icon: github\n      text: Github\n      href: https://github.com/Alexis-vs\n    - icon: linkedin\n      text: LinkedIn\n      href: https://fr.linkedin.com/in/alexis-van-straaten-97085512a\n---\n\n\nI'm Data Scientist at AP-HP (Assistance Publique - Hôpitaux de Paris) in the Medical Informatics and Public Health department of the European Georges Pompidou Hospital. My work focuses on the development of a R/python package to perform survival analyzes with GPU support, and the realization of the machine learning projects of the doctors of the hospital.\n\n\n::: {.cell}\n\n:::\n\n\n\n4\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

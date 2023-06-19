@@ -1,0 +1,30 @@
+---
+bibliography: references.bib
+csl: mycsl.csl
+citations-hover: false
+---
+
+```{r, echo=FALSE}
+book <- fontawesome::fa("book", fill = "#64605F", a11y = "sem")
+users <- fontawesome::fa("users", fill = "#64605F", a11y = "sem")
+```
+
+
+## `r book` Publications
+
+-   @rassy2023
+
+-   @rives-lange2023
+
+-   @faucher2022
+
+-   @jannot2021
+
+## `r users` Conference papers
+
+-   @vanstraaten2023
+
+-   @prot-bertoye2022
+
+-   @faucher2022a
+

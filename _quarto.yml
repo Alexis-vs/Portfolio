@@ -1,0 +1,45 @@
+project:
+  type: website
+
+website:
+  title: "Alexis van STRAATEN"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: publications.qmd
+        text: Publications
+      - href: talks.qmd
+        text: Talks
+      - href: resume.qmd
+        text: Resume
+        
+    right:
+      - text: Projects
+        menu:
+          - text: survivalGPU
+            href: https://github.com/jeanfeydy/survivalGPU
+          - text: winaRaque
+            href: https://github.com/Alexis-vs/winaRaque
+      - icon: github
+        href: https://github.com/Alexis-vs
+      - icon: linkedin
+        href: https://fr.linkedin.com/in/alexis-van-straaten-97085512a
+        
+  page-footer:
+    left: |
+      Made with [Quarto](https://quarto.org/)
+    right: |
+      [Github Code Repo](https://github.com/Alexis-vs/Portfolio)
+    background: "#004E4F"
+    
+format:
+  html:
+    theme:
+      light: [cosmo, theme_light.scss]
+      dark: [cosmo, theme_dark.scss]
+    css: styles.css
+    citations-hover: true
+
+editor: visual
+

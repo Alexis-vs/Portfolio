@@ -1,0 +1,35 @@
+---
+title: "Talks"
+bibliography: references.bib
+csl: biostatistics.csl
+---
+
+```{r, echo=FALSE}
+users <- fontawesome::fa("users", fill = "#64605F", a11y = "sem")
+person_chalkboard <- fontawesome::fa("person-chalkboard", fill = "#64605F", a11y = "sem")
+```
+
+## `r users` Congress
+
+### EMOIS 2023 - Nancy
+
+::: columns
+::: {.column width="55%"}
+EMOIS is a congress focused on epidemiological research. The objective of this presentation was to present for the first time our survivalGPU library, in particular the WCE model on signal detection, with a case study on pharmacovigilance. With the rise of large national medical databases, many researchers have been interested in using GPUs for their research. This presentation gave rise to a publication in the *Revue d'Épidémiologie et de Santé Publique* [@vanstraaten2023].
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+![](images/emois2023.jpg){width="750"}
+:::
+:::
+
+## `r person_chalkboard` Short presentations
+
+-   **Analyses de survie sur cartes graphiques : survivalGPU**\
+    \vspace{1.5cm} February 2023 - Unité de Recherche Clinique (URC), *European Georges Pompidou Hostipal*
+
+::: refs
+:::
