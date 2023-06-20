@@ -2,6 +2,7 @@
 title: "Talks"
 bibliography: references.bib
 csl: biostatistics.csl
+css: mycss.css
 ---
 
 ```{r, echo=FALSE}
@@ -31,5 +32,7 @@ EMOIS is a congress focused on epidemiological research. The objective of this p
 -   **Analyses de survie sur cartes graphiques : survivalGPU**\
     \vspace{1.5cm} February 2023 - Unité de Recherche Clinique (URC), *European Georges Pompidou Hostipal*
 
-::: refs
+#### References
+
+::: {#refs}
 :::
