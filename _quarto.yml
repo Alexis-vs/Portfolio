@@ -3,6 +3,9 @@ project:
 
 website:
   title: "Alexis van STRAATEN"
+  google-analytics:
+    tracking-id: "G-L5S662RT0H"
+    anonymize-ip: true
   navbar:
     left:
       - href: index.qmd
