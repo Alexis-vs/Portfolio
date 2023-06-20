@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -64,6 +83,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="mycss.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -160,8 +180,34 @@ ul.task-list li input[type="checkbox"] {
 <li><p><span class="citation" data-cites="prot-bertoye2022">Prot-Bertoye, C., Jung, V., Tostivint, I., Roger, K., Jannot, A. S., et al. <a href="#ref-prot-bertoye2022" role="doc-biblioref">(2022). Effet du traitement alcalinisant sur la signature inflammatoire urinaire chez les patients cystinuriques. <em>Néphrologie &amp; Thérapeutique</em> 18, 312–313, <u><em><span role="doc-biblioref">10.1016/j.nephro.2022.07.247</span></em></u>.</a></span></p></li>
 <li><p><span class="citation" data-cites="faucher2022a">Faucher, P., Carette, C., Jannot, A.-S., Gatta-Cherifi, B., Van Straaten, A., et al. <a href="#ref-faucher2022a" role="doc-biblioref">(2022). Résultats pondéraux et métaboliques à 5&nbsp;ans d<span>’</span>une chirurgie bariatrique chez des sujets présentant une obésité hypothalamique secondaire à un craniopharyngiome&nbsp;: une étude cas-contrôle du réseau FORCE. <em>Nutrition Clinique et Métabolisme</em> 36, S81–S82, <u><em><span role="doc-biblioref">10.1016/j.nupar.2021.12.158</span></em></u>.</a></span></p></li>
 </ul>
+<section id="references" class="level4">
+<h4 class="anchored" data-anchor-id="references">References</h4>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-rassy2023" class="csl-entry" role="listitem">
+Available at: <a href="http://dx.doi.org/10.1001/jamanetworkopen.2023.14741">http://dx.doi.org/10.1001/jamanetworkopen.2023.14741</a>
+</div>
+<div id="ref-rives-lange2023" class="csl-entry" role="listitem">
+Available at: <a href="http://dx.doi.org/10.1001/jamasurg.2022.5450">http://dx.doi.org/10.1001/jamasurg.2022.5450</a>
+</div>
+<div id="ref-faucher2022" class="csl-entry" role="listitem">
+Available at: <a href="http://dx.doi.org/10.1007/s11695-022-06079-9">http://dx.doi.org/10.1007/s11695-022-06079-9</a>
+</div>
+<div id="ref-jannot2021" class="csl-entry" role="listitem">
+Available at: <a href="http://dx.doi.org/10.1136/jech-2020-216068">http://dx.doi.org/10.1136/jech-2020-216068</a>
+</div>
+<div id="ref-vanstraaten2023" class="csl-entry" role="listitem">
+Available at: <a href="http://dx.doi.org/10.1016/j.respe.2023.101467">http://dx.doi.org/10.1016/j.respe.2023.101467</a>
+</div>
+<div id="ref-prot-bertoye2022" class="csl-entry" role="listitem">
+Available at: <a href="http://dx.doi.org/10.1016/j.nephro.2022.07.247">http://dx.doi.org/10.1016/j.nephro.2022.07.247</a>
+</div>
+<div id="ref-faucher2022a" class="csl-entry" role="listitem">
+Available at: <a href="http://dx.doi.org/10.1016/j.nupar.2021.12.158">http://dx.doi.org/10.1016/j.nupar.2021.12.158</a>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -474,6 +520,43 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
           }
         });
       }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
 });
 </script>
 </div> <!-- /content -->
