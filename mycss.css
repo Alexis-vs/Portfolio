@@ -14,8 +14,6 @@
 h4 {
   text-indent: -9999px;                 /* sends the text off-screen */
     background-image: url(the_img.png);  /* shows image */
-    height: 100px;                        /* be sure to set height & width */
-    width: 600px;
     white-space: nowrap; 
 }
 
