@@ -12,4 +12,4 @@ about:
       href: https://fr.linkedin.com/in/alexis-van-straaten-97085512a
 ---
 
-I'm Data Scientist at AP-HP (Assistance Publique - Hôpitaux de Paris) in the Medical Informatics and Public Health department of the European Georges Pompidou Hospital. My work focuses on the development of a R/python package to perform survival analyzes with GPU support, and the realization of the machine learning projects of the doctors of the hospital.
+I'm Data Scientist at AP-HP (Assistance Publique - Hôpitaux de Paris) in the Medical Informatics and Public Health department of the European Georges Pompidou Hospital. My work focuses on the development of survivalGPU, a R / python package to perform survival analyzes with GPU support, and the realization of the machine learning projects of the doctors of the hospital.
