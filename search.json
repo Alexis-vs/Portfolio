@@ -32,14 +32,14 @@
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "Rencontres R it’s a great conference bringing together the R community, to share projects and discuss the latest news on the language. I presented survivalGPU in order to explain how to carry out survival analyzes with this package.\n\n\n\n\n\n\n\nEMOIS is a congress focused on epidemiological research. The objective of this presentation was to present for the first time our survivalGPU library, in particular the WCE model on signal detection, with a case study on pharmacovigilance. With the rise of large national medical databases, many researchers have been interested in using GPUs for their research. This presentation gave rise to a publication in the Revue d’Épidémiologie et de Santé Publique (Van Straaten and others 2023)."
+    "text": "Rencontres R it’s a great conference bringing together the R community, to share projects and discuss the latest news on the language. I presented survivalGPU in order to explain how to carry out survival analyzes with this package.\nSlides\nGithub Repo\n\n\n\n\n\n\n\nEMOIS is a congress focused on epidemiological research. The objective of this presentation was to present for the first time our survivalGPU library, in particular the WCE model on signal detection, with a case study on pharmacovigilance. With the rise of large national medical databases, many researchers have been interested in using GPUs for their research. This presentation gave rise to a publication in the Revue d’Épidémiologie et de Santé Publique (Van Straaten and others 2023).\nSlides"
   },
   {
     "objectID": "talks.html#congress",
     "href": "talks.html#congress",
     "title": "Talks",
     "section": "",
-    "text": "Rencontres R it’s a great conference bringing together the R community, to share projects and discuss the latest news on the language. I presented survivalGPU in order to explain how to carry out survival analyzes with this package.\n\n\n\n\n\n\n\nEMOIS is a congress focused on epidemiological research. The objective of this presentation was to present for the first time our survivalGPU library, in particular the WCE model on signal detection, with a case study on pharmacovigilance. With the rise of large national medical databases, many researchers have been interested in using GPUs for their research. This presentation gave rise to a publication in the Revue d’Épidémiologie et de Santé Publique (Van Straaten and others 2023)."
+    "text": "Rencontres R it’s a great conference bringing together the R community, to share projects and discuss the latest news on the language. I presented survivalGPU in order to explain how to carry out survival analyzes with this package.\nSlides\nGithub Repo\n\n\n\n\n\n\n\nEMOIS is a congress focused on epidemiological research. The objective of this presentation was to present for the first time our survivalGPU library, in particular the WCE model on signal detection, with a case study on pharmacovigilance. With the rise of large national medical databases, many researchers have been interested in using GPUs for their research. This presentation gave rise to a publication in the Revue d’Épidémiologie et de Santé Publique (Van Straaten and others 2023).\nSlides"
   },
   {
     "objectID": "talks.html#short-presentations",
