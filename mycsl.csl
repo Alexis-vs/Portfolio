@@ -192,7 +192,6 @@
           </else>
         </choose>
       </group>
-      <text macro="access" prefix=". "/>
     </layout>
   </citation>
   <bibliography et-al-min="11" et-al-use-first="10" entry-spacing="0" hanging-indent="true">
