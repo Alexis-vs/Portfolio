@@ -11,6 +11,8 @@ users <- fontawesome::fa("users", fill = "#64605F", a11y = "sem")
 
 ## `r book` Publications
 
+-   @Prot-Bertoye2024
+
 -   @Cosenza-Contreras2023
 
 -   @rassy2023
